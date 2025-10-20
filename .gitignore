@@ -24,3 +24,9 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# macOS system files
+.DS_Store
+
+# IDE/Editor directories
+.vscode/
