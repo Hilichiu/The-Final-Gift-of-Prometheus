@@ -9,11 +9,8 @@ define o = Character("Orcade", color="#8B4513")      # Muddy brown text
 
 # -- 1b. Custom Position Definitions ------------------------------------------
 
-define farleft = Position(xalign=0.1, yalign=1.0)
-define left = Position(xalign=0.25, yalign=1.0)
-define center = Position(xalign=0.5, yalign=1.0)
-define right = Position(xalign=0.75, yalign=1.0)
-define farright = Position(xalign=0.9, yalign=1.0)
+define farleft = Position(xalign=0, yalign=1.0)
+define farright = Position(xalign=1, yalign=1.0)
 
 # -- 1c. Custom Transitions ---------------------------------------------------
 # CORRECTED: Added the missing definition for the 'flash' transition.
