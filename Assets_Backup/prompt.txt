@@ -154,7 +154,7 @@ Sound Effects (SFX)
 * sfx_orc_roar_deep.wav: A deep, guttural, beast-like roar (Orcade).
 * sfx_orc_roar_small.wav: A shorter, less-deep orc shout (Guards).
 * sfx_prometheus_scream.wav: A deep, human-like scream of pure agony.
-* sfs_ground_shake.wav: A low, deep rumbling sound, like heavy footsteps.
+* sfx_ground_shake.wav: A low, deep rumbling sound, like heavy footsteps.
 * sfx_sword_draw.wav: The 'shing' of a sword being pulled from a scabbard.
 * sfx_explosion_loud.wav: A loud, bass-heavy 'BOOM' with a fiery crackle.
 * sfx_chain_break.wav: The loud 'SNAP' and 'CLANG' of heavy iron chains breaking.
