@@ -2,10 +2,13 @@
 # This runs at the start of the game.
 init python:
     # Sets the default volume for the 'music' (BGM) mixer to 70%
-    _preferences.set_volume("music", 0.7)
+    _preferences.set_volume("music", 0.5)
     
     # Sets the default volume for the 'sound' (SFX) mixer to 100%
-    _preferences.set_volume("sound", 1.0)
+    _preferences.set_volume("sound", 0.8)
+
+    # Sets the default volume for the 'video' (Movie) mixer to 100%
+    _preferences.set_volume("video", 1.0)
 
 # -- 1. Character Definitions -------------------------------------------------
 
