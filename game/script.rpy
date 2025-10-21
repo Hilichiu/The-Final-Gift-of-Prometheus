@@ -63,7 +63,7 @@ image k determined = "images/k_determined.png"
 image k bow = "images/k_bow.png"
 
 image y normal = "images/y_normal.png"
-image y scared = "imagesTwo/y_scared.png"
+image y scared = "images/y_scared.png"
 image y horrified = "images/y_horrified.png"
 image y healing = "images/y_healing.png"
 image y crying = "images/y_crying.png"
