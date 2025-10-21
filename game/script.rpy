@@ -1,4 +1,13 @@
-﻿# -- 1. Character Definitions -------------------------------------------------
+﻿# -- 0. Set Default Audio Volumes --
+# This runs at the start of the game.
+init python:
+    # Sets the default volume for the 'music' (BGM) mixer to 70%
+    _preferences.set_volume("music", 0.7)
+    
+    # Sets the default volume for the 'sound' (SFX) mixer to 100%
+    _preferences.set_volume("sound", 1.0)
+
+# -- 1. Character Definitions -------------------------------------------------
 
 define n = Character(None)
 define p = Character("Prometheus", color="#FFD700") # Golden text
@@ -131,7 +140,7 @@ label start:
     play music "audio/bgm_tension.mp3" loop
     
     # Ground shaking effect
-    play sound "audio/sfs_ground_shake.wav" loop
+    play sound "audio/sfx_ground_shake.wav" loop
     show h normal at left with {'xalign':0.25, 'yalign':1.0, 'linear':0.1, 'xalign':0.24, 'yalign':1.0, 'linear':0.1, 'repeat':3}
     show k normal at center with {'xalign':0.5, 'yalign':1.0, 'linear':0.1, 'xalign':0.51, 'yalign':1.0, 'linear':0.1, 'repeat':3}
     show y normal at right with {'xalign':0.75, 'yalign':1.0, 'linear':0.1, 'xalign':0.74, 'yalign':1.0, 'linear':0.1, 'repeat':3}

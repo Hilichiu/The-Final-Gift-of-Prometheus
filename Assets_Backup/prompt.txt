@@ -1,0 +1,171 @@
+The following pictures should generated with PNG format with transparent background, do not add any text in the image, the character generated should be consistent 
+
+
+
+Part 1: Visual Novel Asset Generation Plan
+
+Here is a detailed list of all the visual, audio, and special effect assets you will need. The prompts are designed to be used with AI image generation tools, referencing your JSON character settings.
+
+A. Character Sprites
+
+General Note for AI: All human characters should be in a consistent anime/visual novel style. Orcade should be in a semi-realistic, fantasy art style.
+
+1. Prometheus (Tag: p)
+
+* p_chained_suffering.png
+    * Prompt: "Full-body shot, a male Titan (Prometheus) of immense, god-like build, chained with massive iron links to a bleak, dark rock. He is in extreme agony, head thrown back in a silent scream. His body shows deep, raw wounds on his torso where his liver would be. He has a noble, bearded face twisted in pain. Style: Epic, dark, classical fantasy painting."
+* p_chained_coma.png
+    * Prompt: "Same as p_chained_suffering, but Prometheus is completely unconscious. His head is slumped forward, body limp against the chains, looking utterly broken and defeated. The wounds are still visible."
+* p_unconscious_ground.png
+    * Prompt: "A low-angle shot of Prometheus lying on the ground in a forest clearing. He is unchained but still comatose, his body covered in dirt and old wounds, looking frail. He is not glowing."
+* p_glowing_standing.png
+    * Prompt: "Full-body shot, Prometheus standing tall and free, broken chains falling from his wrists. His body is whole and healed, emitting a powerful, warm, golden divine light. His expression is serene, powerful, and peaceful. Style: Divine, ethereal."
+* p_glowing_smile.png
+    * Prompt: "Bust-up shot of p_glowing_standing. Prometheus is looking at the heroes with a gentle, benevolent smile. His eyes are filled with wisdom and gratitude."
+* p_glowing_fading.png
+    * Prompt: "Same as p_glowing_standing, but his body is becoming semi-transparent and dissolving into particles of golden light, starting from his feet."
+
+2. Honoka Kisaragi (Tag: h)
+
+* h_normal.png
+    * Prompt: "Full-body visual novel sprite, 18-year-old female (Honoka Kisaragi), 1.7M tall. Lean, toned body, confident posture. Long, flowing carmine red hair in a high, messy ponytail. Large, expressive amber eyes. Wearing a sleek black bodysuit with fiery orange and gold trim, armored gloves, and boots. Flame-pendant choker."
+* h_determined.png
+    * Prompt: "Bust-up shot, Honoka Kisaragi with a fierce, determined expression. Fists are clenched, ready for a fight."
+* h_shocked.png
+    * Prompt: "Bust-up shot, Honoka Kisaragi with wide, amber eyes and a slightly open mouth, expressing horror and disbelief."
+* h_battle_fire.png
+    * Prompt: "Full-body sprite, Honoka Kisaragi in a battle stance. Her hands are lit with bright orange flames, ready to attack ('Blazing Comet Fist')."
+* h_idea.png
+    * Prompt: "Bust-up shot, Honoka Kisaragi with her eyes lit up, a confident smirk appearing. She has just had a breakthrough."
+* h_crying.png
+    * Prompt: "Bust-up shot, Honoka Kisaragi with tears in her amber eyes, but her expression is not of weakness, but of sad resolve. She is looking up at Prometheus."
+
+3. Kaito Tachibana (Tag: k)
+
+* k_normal.png
+    * Prompt: "Full-body visual novel sprite, 20-year-old male (Kaito Tachibana), 1.8M tall. Lean and agile build, always in a ready stance. Short, unruly dark brown hair, sharp hazel eyes. Wearing a functional, battle-worn forest green tunic over light chainmail, brown leather gauntlets, and boots. He has a simple sword at his hip and a round shield on his back."
+* k_guard.png
+    * Prompt: "Full-body sprite, Kaito Tachibana in a defensive stance. He is holding his enchanted shield forward and his sword is drawn, ready to block."
+* k_shocked.png
+    * Prompt: "Bust-up shot, Kaito Tachibana with wide hazel eyes, his stoic expression broken by shock and tension."
+* k_determined.png
+    * Prompt: "Bust-up shot, Kaito Tachibana with a stoic, focused expression. His jaw is set, ready for a difficult task."
+* k_bow.png
+    * Prompt: "Bust-up shot, Kaito Tachibana bowing his head in deep respect, eyes closed."
+
+4. Yui Hoshizaki (Tag: y)
+
+* y_normal.png
+    * Prompt: "Full-body visual novel sprite, 13-year-old female (Yui Hoshizaki), 1.3M tall. Small, slender, doll-like appearance. Long, soft dark brown hair with elaborate ribbons. Wide, deep violet eyes, often looking downcast. Wearing a detailed antique Lolita-style dress with lavender and cream ruffles, lace, and puffed sleeves. She wears an ornate locket."
+* y_scared.png
+    * Prompt: "Bust-up shot, Yui Hoshizaki looking terrified, hands partially covering her face, wide violet eyes."
+* y_horrified.png
+    * Prompt: "Bust-up shot, Yui Hoshizaki with a hand over her mouth, her violet eyes wide with absolute horror."
+* y_healing.png
+    * Prompt: "Full-body sprite, Yui Hoshizaki with her hands outstretched. Her hands and locket glow with a gentle, lavender-white light. Her eyes are closed in concentration."
+* y_crying.png
+    * Prompt: "Bust-up shot, Yui Hoshizaki with large tears streaming down her face, looking up with a pained, empathetic expression."
+
+5. Orcade (Tag: o)
+
+* o_normal.png
+    * Prompt: "Full-body sprite, a massive 3-meter-tall Orc (Orcade). Hulking frame, thick scarred green hide, broad chest. Black coarse hair in a braid with bones. Small, deep-set, glowing yellow eyes. Two massive, jutting tusks carved with runes. Wields a colossal, two-handed stone-crusher axe. Wears crude iron plates and massive, thick wooden greaves (shin guards) bound with sinew."
+* o_roaring.png
+    * Prompt: "Bust-up shot, Orcade with his mouth wide open in a deafening roar, yellow eyes blazing with aggression, tusks prominent."
+* o_laughing.png
+    * Prompt: "Bust-up shot, Orcade with a cruel, mocking laugh, looking down with disdain."
+* o_angry.png
+    * Prompt: "Bust-up shot, Orcade looking furious, eyes glowing brighter, teeth bared in a snarl."
+* o_rage.png
+    * Prompt: "Full-body sprite, Orcade in his 'Berserker Rage'. His muscles are tensed, eyes glowing intensely yellow, a faint red aura around him. He is limping slightly, his pose more feral and uncontrolled."
+* o_pain.png
+    * Prompt: "Bust-up shot, Orcade wincing and roaring in pain, eyes shut tight."
+* o_dissolving.png
+    * Prompt: "Full-body sprite, Orcade looking up in shock and rage as his body dissolves into dust and dark particles, crumbling from the feet up."
+
+6. Miscellaneous
+
+* orc_guard.png
+    * Prompt: "A generic orc, smaller than Orcade but still muscular and brutish, holding a simple spear. Wearing crude leather armor."
+* eagle.png
+    * Prompt: "A large, dark-feathered eagle, looking menacing, perched on a rock."
+
+B. Backgrounds (BGs)
+
+* bg_mountain_peak_day.png
+    * Prompt: "A wide-angle digital painting of a bleak, desolate mountaintop. Jagged black rocks, high altitude, thin clouds, no vegetation. In the center is a large, flat-topped rock stained with old blood. The mood is oppressive and tormented."
+* bg_mountain_path_day.png
+    * Prompt: "A digital painting of a narrow, rocky mountain path. To one side is a sheer cliff wall, to the other is a view of the peaks above. The path is uneven. The sky is clear but the air feels thin."
+* bg_mountain_peak_view.png
+    * Prompt: "A zoomed-out view of bg_mountain_peak_day from a distance (from the path). You can see the central rock, surrounded by the dark, hunched-over shapes of many orcs. Smoke rises from small campfires. It looks like a horrific feast."
+* bg_mountain_peak_night.png
+    * Prompt: "Same as bg_mountain_peak_day, but at night. The scene is lit by a cold, full moon and a few guttering orc campfires. Shadows are long and deep."
+* bg_clearing_day.png
+    * Prompt: "A digital painting of a small, sun-dappled clearing at the base of a mountain. Surrounded by tall pine trees. The ground is covered in grass and a few rocks. A defensible, quiet spot."
+* bg_black.png
+    * Prompt: "A simple, solid black screen."
+* bg_light_wave.png
+    * Prompt: "A full-screen flash of blinding, pure, golden-white light. Like a solar flare."
+
+C. Special Effects (VFX)
+
+* vfx_explosion.png
+    * Prompt: "A large, bright, fiery explosion effect on a transparent background. Anime style."
+* vfx_lace_barrier.png
+    * Prompt: "A semi-transparent, glowing dome. The dome is made of intricate, three-dimensional, glowing white and lavender lace patterns. It shimmers gently."
+* vfx_comet_fist.png
+    * Prompt: "A single, bright orange fireball, trailing sparks and smoke, on a transparent background. Anime style."
+* vfx_leg_fire.png
+    * Prompt: "An animation sprite sheet of a crackling fire, designed to be overlaid on Orcade's legs. Transparent background."
+* vfx_prometheus_lightwave.png
+    * Prompt: "A massive, expanding wave of pure golden energy, originating from a central point. Transparent background."
+
+D. Audio: Music (BGM) & Sound Effects (SFX)
+
+
+Music (BGM)
+
+* bgm_torment.mp3
+    * Genre: Dark, Tragic, Orchestral.
+    * Generation Plan: Create a 2-minute loop. Use low, heavy cellos and violas, a slow, pounding timpani drum, and a high, sorrowful violin melody. It should sound oppressive, grim, and hopeless. (Keywords: Dark, Epic, Tragic, Suffering, Heavy).
+* bgm_journey.mp3
+    * Genre: Adventurous, Hopeful, Orchestral.
+    * Generation Plan: Create a 1:30 loop. Use a wandering flute melody, light pizzicato strings, and a gentle, walking-pace percussion. It should feel like the start of an adventure. (Keywords: Adventure, Light, Hopeful, Journey, RPG).
+* bgm_tension.mp3
+    * Genre: Suspense, Cinematic.
+    * Generation Plan: Create a 1-minute loop. Use a very low, rumbling synthesizer bass or contrabass. Add high-pitched, dissonant string scrapes (like a horror movie) and a quiet, anxious heartbeat rhythm. (Keywords: Suspense, Tension, Rumbling, Danger, Dark).
+* bgm_rescue.mp3
+    * Genre: Stealth, Tense.
+    * Generation Plan: Create a 1:30 loop. Use quiet pizzicato (plucked) strings for a "tip-toe" feeling. Add a xylophone for a light, sneaky melody and a very soft, high-hat rhythm. (Keywords: Stealth, Sneaking, Tense, Night, Heist).
+* bgm_boss_battle.mp3
+    * Genre: Epic, Action, Shonen Battle.
+    * Generation Plan: Create a 2-minute loop. Fast, pounding taiko drums and a driving string section. A powerful brass (trumpets, horns) melody. High energy, fast tempo. (Keywords: Epic Battle, Boss Fight, Anime, Action, Fast-Paced).
+* bgm_climax.mp3
+    * Genre: Divine, Triumphant, Emotional.
+    * Generation Plan: Create a 1:30 piece (not a loop, it should build). Start quiet with a harp arpeggio, then swell with a full orchestra and a powerful, wordless angelic choir. It should feel divine, magical, and emotionally overwhelming. (Keywords: Divine, Climax, Swelling, Choir, Triumphant, Emotional).
+* bgm_farewell.mp3
+    * Genre: Sad, Reflective, Piano.
+    * Generation Plan: Create a 2-minute loop. A simple, slow, melancholic piano melody. A soft string pad in the background for atmosphere. It should feel sad, but also peaceful. (Keywords: Sad, Farewell, Reflective, Piano, Ending).
+
+Sound Effects (SFX)
+
+* sfx_eagle_shriek.wav: A loud, piercing shriek of a large bird of prey.
+* sfx_rock_throw.wav: A 'whoosh' followed by a 'thud' of a rock hitting flesh.
+* sfx_orc_roar_deep.wav: A deep, guttural, beast-like roar (Orcade).
+* sfx_orc_roar_small.wav: A shorter, less-deep orc shout (Guards).
+* sfx_prometheus_scream.wav: A deep, human-like scream of pure agony.
+* sfs_ground_shake.wav: A low, deep rumbling sound, like heavy footsteps.
+* sfx_sword_draw.wav: The 'shing' of a sword being pulled from a scabbard.
+* sfx_explosion_loud.wav: A loud, bass-heavy 'BOOM' with a fiery crackle.
+* sfx_chain_break.wav: The loud 'SNAP' and 'CLANG' of heavy iron chains breaking.
+* sfx_heal_chime.wav: A series of gentle, high-pitched, magical chimes.
+* sfx_axe_swing.wav: A heavy 'WHOOSH' of a massive weapon.
+* sfx_axe_block.wav: A loud 'CLANG' of metal (axe) hitting metal (shield).
+* sfx_fireball_whoosh.wav: A fast 'whoosh' of a fire projectile.
+* sfx_fire_impact_dull.wav: A 'thump' and 'fizzle' of fire hitting something thick and resistant.
+* sfx_fire_crackle.wav: The sound of wood burning fiercely.
+* sfx_body_thud.wav: A heavy, dull 'thud' as a person is knocked to the ground.
+* sfx_divine_chime.wav: A single, resonant, powerful, and holy-sounding chime.
+* sfx_light_wave.wav: A building 'HMMMM' sound that crescendos into a massive 'WHOOSH' of energy.
+* sfx_dissolve.wav: A sound like sand pouring, mixed with a magical 'fizzle'.
+* sfx_wind_whisper.wav: A soft, fading whisper of wind.
