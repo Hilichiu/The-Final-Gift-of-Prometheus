@@ -181,8 +181,14 @@ label start:
     h "We *have* to save him. We can't fight them all in the day. We wait for night."
     
     k "Agreed. Honoka, you create a distraction. Yui, you get to Prometheus. I'll cover you both. We strike fast, and we get him out."
-
+    
+    stop music fadeout 1.0
+    
     scene bg black with fade
+    
+    # -- INTRO VIDEO --
+    
+    $ renpy.movie_cutscene("intro.webm")
 
     # -- Scene 3: The Night Rescue --
 
@@ -392,6 +398,6 @@ label start:
     
     scene bg black with fade
     
-    n "End of Play"
+    n "THE END (Prometheus Route)"
 
     return
